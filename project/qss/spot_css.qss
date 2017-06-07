@@ -1,0 +1,8 @@
+QDialog{background-color:#FFFFFF;}
+
+QPushButton{padding:7px;border-radius:2px;color:#FFFFFF;background:#E74C3C;font-size:15px;font-family:microsoft yahei;}
+QPushButton:hover{color:#FFFFFF;background:#2EE1C1;}
+QPushButton:pressed{color:#A7EEE6;background:#16A086;}
+
+QLabel{font-family:microsoft yahei;}
+QLabel#spotNameLabel{font-weight:800;}

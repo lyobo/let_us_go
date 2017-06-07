@@ -1,0 +1,31 @@
+QDialog{background-color:#FFFFFF;}
+
+QPushButton{padding:7px;border-radius:2px;color:#FFFFFF;background:#3498DB;font-size:13px;font-family:microsoft yahei;}
+QPushButton:hover{color:#E5FEFF;background:#5DACE4;}
+QPushButton:pressed{color:#A0DAFB;background:#2483C7;}
+
+QPushButton#commentButton{padding:7px;border-radius:2px;color:#FFFFFF;background:#E74C3C;font-size:15px;font-family:microsoft yahei;}
+QPushButton#commentButton:hover{color:#FFFFFF;background:#2EE1C1;}
+QPushButton#commentButton:pressed{color:#A7EEE6;background:#16A086;}
+
+QLabel{font-family:microsoft yahei;}
+QLabel#spotNameLabel{font-weight:800;font-size:12px}
+
+
+QComboBox {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px;
+    min-width: 9em;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

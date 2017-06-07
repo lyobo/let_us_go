@@ -1,0 +1,39 @@
+QDialog{background-color:#FFFFFF;}
+
+QPushButton{padding:7px;border-radius:2px;color:#FFFFFF;background:#3498DB;font-size:15px;font-family:microsoft yahei;font-weight:800;}
+QPushButton:hover{color:#E5FEFF;background:#5DACE4;}
+QPushButton:pressed{color:#A0DAFB;background:#2483C7;}
+
+QLabel{font-family:microsoft yahei;font-size:15px}
+QLabel#welcomeLabel{font-weight:800;font-size:18px}
+
+QPushButton#registerButton{padding:7px;border-radius:2px;color:#FFFFFF;background:#E74C3C;font-size:15px;font-family:microsoft yahei;}
+QPushButton#registerButton:hover{color:#FFFFFF;background:#2EE1C1;}
+QPushButton#registerButton:pressed{color:#A7EEE6;background:#16A086;}
+
+QPushButton#loginButton{padding:7px;border-radius:2px;color:#FFFFFF;background:#E74C3C;font-size:15px;font-family:microsoft yahei;}
+QPushButton#loginButton:hover{color:#FFFFFF;background:#2EE1C1;}
+QPushButton#loginButton:pressed{color:#A7EEE6;background:#16A086;}
+
+QTabWidget#registerTab:pane{border-top:2px solid #C2C7CB;}
+QTabWidget#registerTab:tab-bar{left:5px;}
+
+QTabBar::tab{
+	background-color:white;
+	border:1px solid #C4C4C3;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+	color:black;
+	font:15px microsoft yahei;
+	font-weight:800;
+	min-width:20ex;
+	min-height:8ex;
+}
+QTabBar::tab:hover{
+	background-color:#E5FEFF;
+}
+QTabBar::tab:selected{
+	border-color:#2483C7;
+	background:white;
+	color:#2483C7;
+}
